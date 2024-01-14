@@ -50,6 +50,18 @@ html, body {
     background-color: greenyellow;
 }
 
+#lnav {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0 0 40px;
+}
+
+#lnav #lnavr {
+    display: flex;
+    align-items: center;
+    margin: 0 40px 0 30px; 
+}
+
 
 
 
