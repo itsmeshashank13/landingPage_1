@@ -17,6 +17,7 @@ html, body {
 }
 
 #leftDiv {
+    position: relative;
     width: 40%;
     height: 100%;
     background-color: aqua;
@@ -55,7 +56,8 @@ html, body {
     display: flex;
     justify-content: space-between;
     margin: 20px 0 0 40px;
-    font-size: 25px;
+    font-size: 30px;
+    font-weight: 900;
 }
 
 #lnav #lnavr {
@@ -67,6 +69,32 @@ html, body {
 #lnavr a {
     margin-left: 30px;
     text-decoration: none;
+}
+
+#leftDiv #textCenter {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#textCenter h1 {
+    font-size: 160px;
+    font-weight: 900;
+}
+
+#textCenter p {
+    font-size: 17px;
+    opacity: 0.6;
+    line-height: 30px;  
+    margin-bottom: 25px; 
+}
+
+#textCenter a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #000;
+    border-bottom: 2px solid #000;
 }
 
 
