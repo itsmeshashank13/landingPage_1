@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Titillium Web;
 }
 
 html, body {
@@ -54,12 +55,18 @@ html, body {
     display: flex;
     justify-content: space-between;
     margin: 20px 0 0 40px;
+    font-size: 25px;
 }
 
 #lnav #lnavr {
     display: flex;
     align-items: center;
     margin: 0 40px 0 30px; 
+}
+
+#lnavr a {
+    margin-left: 30px;
+    text-decoration: none;
 }
 
 
